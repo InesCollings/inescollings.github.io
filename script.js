@@ -77,7 +77,7 @@ const pages = {
       <h1>Publications</h1>
       <p>Full publication list can be found <a href="https://scholar.google.de/citations?user=5Yzriq8AAAAJ&hl=en" target="_blank">here</a>.</p>
       <div class="publication">
-        <img src="images/cover.png" alt="Publication 1 Image">
+        <img src="images/cover_NaCl-H2O.png" alt="Publication 1 Image">
         <div class="publication-text">
           <h3>On the identification of hyperhydrated sodium chloride hydrates, stable at icy moon conditions </h3>
           <p>B. Journaux, A. Pakhomova, I. E. Collings, S. Petitgirard, T. Boffa Ballaran, J. M. Brown, S. D. Vance, S. Chariton, V. B. Prakapenka, D. Huang, J. Ott, K. Glazyrin, G. Garbarino, D. Comboni, M. Hanfland, PNAS, 120, e2217125120, (2023).</p>
