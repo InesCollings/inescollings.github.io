@@ -58,9 +58,9 @@ const pages = {
       </div>
       
       <h1>Open positions</h1>
-            <div class="publication">
+      <div class="publication">
       <div class="publication-text">
-        <p3>trees DLA PhD position on <a href = "https://www.trees-dla.ac.uk/projects/crystal-chemical-systematics-lithium-minerals-tool-future-positive-mining" target = "_blank">
+        <p>trees DLA PhD position on <a href = "https://www.trees-dla.ac.uk/projects/crystal-chemical-systematics-lithium-minerals-tool-future-positive-mining" target = "_blank">
         Crystal–chemical systematics of lithium in minerals: A tool for future positive mining.<\a><\p>
       </div>
       </div>
@@ -350,4 +350,5 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
