@@ -83,7 +83,7 @@ const pages = {
     </section>
     <div style="height: 50px;"></div>
 
-        <section>
+    <section>
       <h1>XRD Lab</h1>
     
       <div class="publication">
@@ -374,6 +374,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
