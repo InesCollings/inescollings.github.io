@@ -82,6 +82,28 @@ const pages = {
       </div>
     </section>
     <div style="height: 50px;"></div>
+
+        <section>
+      <h1>XRD Lab</h1>
+    
+      <div class="publication">
+        <div class="publication-text">
+          <p>
+            We have a range of single-crystal and powder diffractometers that allow in situ measurements at variable temperature and pressure through the use of diamond anvil cells. 
+            For further details see our 
+            <a href="https://www.nhm.ac.uk/our-science/services/facilities/imaging-analysis/x-ray-diffraction.html" target="_blank">
+              NHM X-ray diffraction facilities webpage.
+            </a>
+          </p>
+    
+`          <div class="lab-images">`
+            <img src="images/Synergy_NHM.png" alt="Rigaku Synergy diffractometer at NHM">
+            <img src="images/Stoe_NHM.png" alt="Stoe powder diffractometer at NHM">
+`          </div>`
+        </div>
+      </div>
+    </section>
+    
   `,
   publications: `
     <section>
@@ -354,6 +376,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
