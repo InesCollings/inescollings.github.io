@@ -102,7 +102,7 @@ const pages = {
             <img src="images/Stoe_NHM.png" alt="Stoe powder diffractometer at NHM">
         </div>
     </section>
-    <div style="height: 30px;"></div>
+    <div style="height: 10px;"></div>
     
   `,
   publications: `
@@ -376,6 +376,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
