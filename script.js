@@ -86,8 +86,7 @@ const pages = {
     <section>
       <h1>XRD Lab</h1>
     
-      <div class="publication">
-        <div class="publication-text">
+
           <p>
             We have a range of single-crystal and powder diffractometers that allow in situ measurements at variable temperature and pressure through the use of diamond anvil cells. 
             For further details see our 
@@ -99,10 +98,8 @@ const pages = {
             <img src="images/Synergy_NHM.png" alt="Rigaku Synergy diffractometer at NHM">
             <img src="images/Stoe_NHM.png" alt="Stoe powder diffractometer at NHM">
         </div>
-        </div>
-      </div>
     </section>
-    <div style="height: 50px;"></div>
+    <div style="height: 30px;"></div>
     
   `,
   publications: `
@@ -376,6 +373,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
