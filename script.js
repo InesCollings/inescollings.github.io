@@ -61,7 +61,7 @@ const pages = {
       <div class="publication">
       <div class="publication-text">
         <p>
-          trees DLA PhD position on 
+          Trees DLA PhD position on 
           <a href = "https://www.trees-dla.ac.uk/projects/crystal-chemical-systematics-lithium-minerals-tool-future-positive-mining" target = "_blank">
             Crystal–chemical systematics of lithium in minerals: A tool for future positive mining.
           </a>
@@ -354,6 +354,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
