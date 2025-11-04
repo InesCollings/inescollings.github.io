@@ -241,3 +241,22 @@ body {
   scroll-behavior: smooth; /* Ensures smooth scrolling globally */
 }
 
+.lab-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* ensures it looks good on small screens */
+  margin-top: 15px;
+}
+
+.lab-images img {
+  width: 45%; /* two images side by side */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .lab-images img {
+    width: 100%; /* stack images on small screens */
+  }
+}
