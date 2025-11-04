@@ -95,9 +95,10 @@ const pages = {
               NHM X-ray diffraction facilities webpage.
             </a>
           </p>
-    
+        <div class="lab-images">
             <img src="images/Synergy_NHM.png" alt="Rigaku Synergy diffractometer at NHM">
             <img src="images/Stoe_NHM.png" alt="Stoe powder diffractometer at NHM">
+        </div>
         </div>
       </div>
     </section>
@@ -374,6 +375,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
