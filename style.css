@@ -241,20 +241,22 @@ body {
   scroll-behavior: smooth; /* Ensures smooth scrolling globally */
 }
 
-/* XRD Lab image styling */
+/* ----- XRD Lab images (override publication defaults) ----- */
 .lab-images {
   display: flex;
-  flex-direction: column;  /* Stack vertically */
-  align-items: center;     /* Center-align images */
-  gap: 20px;               /* Space between them */
+  flex-direction: column;  /* stack vertically */
+  align-items: center;
+  gap: 20px;
   margin-top: 15px;
+  padding-bottom: 40px;    /* add space below the images */
 }
 
 .lab-images img {
-  width: 100%;        /* Take up full width of the container */
-  height: auto;       /* Maintain aspect ratio */
-  border-radius: 0;   /* Remove rounding */
-  display: block;     /* Prevent inline gaps */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle depth */
+  width: 100%;             /* fill the publication text area */
+  height: auto;
+  border-radius: 0 !important; /* override rounded corners */
+  display: block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 
