@@ -85,7 +85,7 @@ const pages = {
 
     
  `,
-  'XRD Lab': `
+  XRDlab: `
     <section>
       <h1>XRD Lab</h1>
     
@@ -376,6 +376,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
