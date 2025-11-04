@@ -244,34 +244,37 @@ body {
 /* ----- XRD Lab images ----- */
 .lab-images {
   display: flex;
-  flex-wrap: wrap;          /* allow stacking on small screens */
-  justify-content: space-between; /* space between images */
-  gap: 20px;                /* spacing between images */
+  flex-wrap: wrap;           /* allow stacking on small screens */
+  justify-content: space-between;
+  gap: 20px;                 /* spacing between images */
   margin-top: 15px;
-  padding-bottom: 40px;     /* space below images */
-  box-sizing: border-box;   /* ensures padding/gap is included in width */
+  padding-bottom: 40px;      /* space below images */
+  box-sizing: border-box;
 }
 
 .lab-images img {
-  flex: 1 1 calc(50% - 10px); /* two images side by side with gap accounted for */
-  max-width: 100%;             /* ensure they don't overflow */
-  height: auto;
-  border-radius: 0 !important; /* remove rounding */
+  flex: 1 1 calc(50% - 10px);  /* two images side by side accounting for gap */
+  max-width: calc(50% - 10px);  /* prevent overflow */
+  height: auto;                 /* maintain aspect ratio */
+  border-radius: 0 !important;  /* remove rounding */
   display: block;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  object-fit: cover;             /* ensures both images scale uniformly */
 }
 
 /* Mobile responsiveness */
 @media (max-width: 767px) {
   .lab-images {
-    flex-direction: column; /* stack images vertically */
-    gap: 15px;              /* smaller gap for mobile */
+    flex-direction: column;  /* stack images vertically */
+    gap: 15px;               /* smaller gap for mobile */
   }
 
   .lab-images img {
-    flex: 1 1 100%;         /* full width on mobile */
+    flex: 1 1 100%;          /* full width on mobile */
+    max-width: 100%;         /* ensure no overflow */
   }
 }
+
 
 
 
