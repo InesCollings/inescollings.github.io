@@ -102,6 +102,7 @@ const pages = {
         </div>
       </div>
     </section>
+    <div style="height: 50px;"></div>
     
   `,
   publications: `
@@ -375,6 +376,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
