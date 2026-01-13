@@ -110,6 +110,16 @@ const pages = {
       <h1>Publications</h1>
       <p>Full publication list can be found <a href="https://scholar.google.de/citations?user=5Yzriq8AAAAJ&hl=en" target="_blank">here</a>.</p>
       <div class="publication">
+        <img src="images/MgCl2_10H2O.png" alt="Publication 1 Image">
+        <div class="publication-text">
+          <h3>Polymorphism of Magnesium Chloride Decahydrate under High Pressures and Low Temperatures Found in Icy Moons </h3>
+          <p>I. E. Collings, A. Pakhomova, B. Journaux, T. Boffa Ballaran, A. Kurnosov, J. M. Brown, G. Garbarino, J. S. Smith, ACS Earth Space Chem., (2026).</p>
+          <a href="https://pubs.acs.org/doi/full/10.1021/acsearthspacechem.5c00273" target="_blank">Read More</a> <!-- Hyperlink for Publication 2 -->
+        </div>
+      </div>
+      
+      
+      <div class="publication">
         <img src="images/cover_NaCl-H2O.png" alt="Publication 1 Image">
         <div class="publication-text">
           <h3>On the identification of hyperhydrated sodium chloride hydrates, stable at icy moon conditions </h3>
@@ -376,6 +386,7 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // Load the home page by default
 loadPage("home");
+
 
 
 
