@@ -28,7 +28,7 @@ const pages = {
   research: `
     <section>
       <h1>Research</h1>
-      <p>Our research focuses on structural transformations and material synthesis under extreme conditions using non-ambient diffraction setups.</p>
+      <p>My research focuses on applying non-ambient diffraction techniques to investigate (<i>i<i>) the mineralogy of icy moons under extreme pressure and temperature conditions, and (<i>ii<i>) structural transformations in functional materials and minerals.</p>
       <div class="research">
         <!-- Box 1 -->
         <div class="research-box">
