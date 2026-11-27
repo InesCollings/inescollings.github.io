@@ -355,7 +355,7 @@ const pages = {
         <p>For general inquiries about open positions or collaborations, please get in touch via email: ines.collings{at}nhm.ac.uk</p>
       </div>
       </div>
-      <p>Postal Address: Department of Earth Sciences, Natural History Museum, Cromwell Road, South Kensington, London SW7 5BD</p>
+      <p>Postal Address: Natural History Museum, Mineral and Planetary Sciences Division, Cromwell Road, South Kensington, London SW7 5BD</p>
       <a href="https://www.linkedin.com/in/ines-collings-9b564882/"target="_blank">LinkedIn</a>
     </section>
   `,
