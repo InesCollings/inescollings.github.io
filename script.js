@@ -8,7 +8,7 @@ const pages = {
         <img src="images/Ines2024_photo.jpg" alt="Figure description">
         <!-- Replace 'path-to-your-figure.jpg' with your figure's URL -->
         <div class="text-content">
-          <h2>About</h2>
+          <h2>Dr. Ines E. Collings</h2>
           <i>Principal Researcher at the Natural History Museum, London</i>
           <p>I am a crystallographer whose research focuses on structure–property relationships in materials and minerals, with the use of non-ambient diffraction setups to access in-situ structural transformations and synthesis of new solids under extreme conditions.
             
