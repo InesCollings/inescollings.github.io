@@ -134,6 +134,14 @@ p {
   margin-bottom: 1em;
 }
 
+.intro-text {
+  text-align: justify;
+  flex: 1; /* Take up remaining space */
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
 /* Responsive styling for smaller screens */
 @media (max-width: 767px) {
   .figure-text-section {
