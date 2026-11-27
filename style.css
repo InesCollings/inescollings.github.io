@@ -126,6 +126,14 @@ footer {
   line-height: 1.6;
 }
 
+/* General text styling */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
 /* Responsive styling for smaller screens */
 @media (max-width: 767px) {
   .figure-text-section {
