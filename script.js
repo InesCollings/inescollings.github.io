@@ -10,8 +10,7 @@ const pages = {
         <div class="text-content">
           <h2>Dr. Ines E. Collings</h2>
           <i>Principal Researcher at the Natural History Museum, London</i>
-          <p>I am a crystallographer whose research focuses on structure–property relationships in materials and minerals, with the use of non-ambient diffraction setups to access in-situ structural transformations and synthesis of new solids under extreme conditions.
-            
+          <p>I am a crystallographer investigating structure–property relationships in functional materials and planetary materials, with a particular focus on the mineralogy of icy moons. Using non-ambient diffraction techniques, I investigate in-situ structural transformations and the synthesis of new solids under extreme pressure and temperature conditions, with applications ranging from the design of functional materials to understanding the structure, composition and evolution of planetary interiors.
           </p>  
         </div>       
       </div>
